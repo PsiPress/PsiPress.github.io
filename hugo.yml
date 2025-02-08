@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://psipress.github.io/"
 title: Psi Press
 # paginate: 5
 theme: PaperMod
@@ -56,13 +56,14 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true # needs to be explicitly set
+    # title: "Psi Press"
+    title: "Welcome to the Psi Press \U0001F485"
+    subtitle: "Our first publication is coming soon. Stay tuned!"
+    imageUrl: "IMG_4494.png"
+    imageWidth: 600
+    imageHeight: 450
+    imageTitle: "Psi Press"
     buttons:
       - name: Posts
         url: posts
@@ -71,16 +72,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Welcome to the Psi Press \U0001F485"
+    Content: Our first publication is coming soon. Stay tuned!
 
-  socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+  # socialIcons:
+  #   - name: x
+  #     url: "https://x.com/"
+  #   - name: stackoverflow
+  #     url: "https://stackoverflow.com"
+  #   - name: github
+  #     url: "https://github.com/"
 
   analytics:
     google:
@@ -114,17 +115,17 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
